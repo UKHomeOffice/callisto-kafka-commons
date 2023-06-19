@@ -37,5 +37,6 @@ jobs:
               -Dsonar.host.url=https://sonarcloud.io 
               -Dsonar.login=$${SONAR_TOKEN} 
               -Dsonar.branch.name=$GITHUB_HEAD_REF
+              -Dsonar.organization=ukhomeoffice
               -Dsonar.projectKey=kafka-commons
               -Dsonar.qualitygate.wait=true
