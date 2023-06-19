@@ -1,4 +1,4 @@
-# callisto-kafka-commons
+# Callisto-Kafka-Commons
 
 A Library using spring kafka, containing useful functionality for a spring applications that need to produce and consume with kafka topics.
 
