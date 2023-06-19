@@ -223,4 +223,11 @@
         </plugins>
         <finalName>callisto-balance-calculator</finalName>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/UKHomeOffice/callisto-kafka-commons</url>
+        </repository>
+    </distributionManagement>
 </project>
