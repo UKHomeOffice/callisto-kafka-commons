@@ -33,10 +33,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -X sonar:sonar 
-              -Dsonar.host.url=https://sonarcloud.io 
-              -Dsonar.login=$${SONAR_TOKEN} 
-              -Dsonar.branch.name=$GITHUB_HEAD_REF
-              -Dsonar.organization=ukhomeoffice
-              -Dsonar.projectKey=kafka-commons
-              -Dsonar.qualitygate.wait=true
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=kafka-commons

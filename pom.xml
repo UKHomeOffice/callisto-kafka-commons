@@ -19,6 +19,8 @@
         <jackson.version>2.14.2</jackson.version>
         <micrometer.version>1.10.5</micrometer.version>
         <checkstyle-maven-plugin.version>3.2.0</checkstyle-maven-plugin.version>
+        <sonar.organization>ukhomeoffice</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
     <dependencyManagement>
