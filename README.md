@@ -9,7 +9,7 @@ A Library using spring kafka, containing useful functionality for a spring appli
   @EntityListeners(KafkaEntityListener.class)
   ```
  
-# Consumer
+# Consuming
    When consuming a kafa listener will need to be wired up within your servce. The library contains a method to deserialize a valid kafkaEventMessage.
       ```
      KafkaConsumerService.convertToKafkaEventMessage
