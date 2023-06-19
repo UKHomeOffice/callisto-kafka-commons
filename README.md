@@ -1,0 +1,1 @@
+# callisto-kafka-commons
