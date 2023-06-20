@@ -1,12 +1,12 @@
 name: Publish package
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: [build]
+    types: [completed]
+    branches: [main]
 
 jobs:
   publish:
-    needs: build
     runs-on: ubuntu-latest
     permissions:
       contents: read
