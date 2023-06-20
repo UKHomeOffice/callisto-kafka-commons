@@ -19,7 +19,7 @@ A Library using spring kafka, containing useful functionality for a spring appli
      kafka.supported.schema.version
     ```
     
-   See the[semver4J](https://github.com/vdurmont/semver4j) for further details on what validation can be achieved.
+   See the [semver4J](https://github.com/vdurmont/semver4j) for further details on what validation can be achieved.
    
    ## Exception Handling
    This library contains an excpetion which can be thrown in order to stop the consumer from consuming messages. This is a critical exception and would require      the consumer service to be brought back up when thrown.
