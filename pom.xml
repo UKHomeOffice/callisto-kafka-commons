@@ -5,7 +5,7 @@
 
 	<groupId>uk.gov.homeoffice.digital.sas</groupId>
 	<artifactId>callisto-kafka-commons</artifactId>
-	<version>0.0.1</version>
+	<version>0.2.0</version>
 	<name>callisto-kafka-commons</name>
 	<description>Callisto kafka commons library</description>
 
